@@ -7,6 +7,7 @@ namespace HelloWorld
 
         static void Main(string[] args)
         {
+            
             Person person1 = new Person("Hans", 20);
             Console.WriteLine("Hello {0}{1} {2}", person1.name, person1.age, "The End!");
             
@@ -17,6 +18,10 @@ namespace HelloWorld
 
             String text = Console.ReadLine();
             Console.WriteLine(text + " is the best!");
+
+            //Test Person
+            Person person3 = person1;
+
         }
     }
 }
